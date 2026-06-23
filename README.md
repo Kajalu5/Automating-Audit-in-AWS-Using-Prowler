@@ -14,3 +14,5 @@
 
 
  <h2> References </h2>
+ https://medium.com/@Kajal0/automating-audit-in-aws-using-prowler-7afb14433ac5
+ 
