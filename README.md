@@ -31,7 +31,7 @@ Check the prowler version using command <B>prowler -v</B>. This proofs that prow
 After that access key will be created with Access Key ID and Secret Access Key.
 <img src = "Images/6.png" height = 400, width = 500>
 Then, configure aws using these credentials for scan.
-<img src = "Images/7.png" height = 400, width = 800>
+<img src = "Images/7.png" height = 400, width = 1000>
 
 <h2> Part 4: Use Prowler Compliance </h2>
 Here, <B>prowler aws --list-compliance</B> gives the list of all the compliance. Prowler Compliance documentation is linked here: https://docs.prowler.com/projects/prowler-open-source/en/latest/tutorials/compliance/
