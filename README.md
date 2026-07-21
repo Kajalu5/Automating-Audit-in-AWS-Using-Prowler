@@ -1,7 +1,7 @@
 <h2> Description </h2>
 
 <h2> Part 1: Install Prowler in AWS </h2>
-<img src = "images/1.png" height = 400, width = 500>
+<img src = "Images/1.png" height = 400, width = 500>
 
 
 
