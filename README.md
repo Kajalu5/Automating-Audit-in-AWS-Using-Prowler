@@ -13,6 +13,17 @@ python3 -m pipx ensurepath
 pipx install prowler
 cd /tmp
 prowler aws
+
+
+```bash
+sudo bash
+adduser prowler
+su prowler
+python3 -m pip install --user pipx
+python3 -m pipx ensurepath
+pipx install prowler
+cd /tmp
+prowler aws
 ```
 
 <img src = "Images/1.png" height = 400, width = 500>
