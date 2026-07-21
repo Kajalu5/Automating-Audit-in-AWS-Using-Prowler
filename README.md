@@ -31,7 +31,7 @@ Check the prowler version using command <B>prowler -v</B>. This proofs that prow
 After that access key will be created with Access Key ID and Secret Access Key.
 <img src = "Images/6.png" height = 400, width = 500>
 Then, configure aws using these credentials for scan.
-<img src = "Images/7.png" height = 400, width = 1000>
+<img src = "Images/7.png" width = 600>
 
 <h2> Part 4: Use Prowler Compliance </h2>
 Here, <B>prowler aws --list-compliance</B> gives the list of all the compliance. Prowler Compliance documentation is linked here: https://docs.prowler.com/projects/prowler-open-source/en/latest/tutorials/compliance/
@@ -43,10 +43,10 @@ Here, I used cis_1.4 framework to scan the system. Use the command: <B>prowler a
 <h2> Part 5: Create S3 Bucket for Output Storage </h2>
 After that create a s3 bucket with all default credentials to store output. In my case, the s3 bucket is: <B>3temp</B>
 We must copy the result to s3 and download the csv file: <B>aws s3 cp /tmp/output/compliance/prowler-output-784161805907-20250808145415_cis_1.4_aws.csv s3://3temp</B>
-<img src = "Images/11.png" height = 550, width = 950>
+<img src = "Images/11.png" width = 600>
 This gives the name of the location in s3 bucket. In my case, it is: prowler-output-784161805907-20250808145415_cis_1.4_aws.csv
  The file is stored in s3 bucket.
- <img src = "Images/12.png" height = 550, width = 950>
+ <img src = "Images/12.png" width = 500>
  Then after downloading the file from the storage, we receive csv with all the details.
  <img src = "Images/13.png" height = 400, width = 500>
  <h2> References </h2>
