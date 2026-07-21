@@ -6,7 +6,10 @@ Navigate to Cloud shell in AWS by typing 'Cloud Shell' in search bar. After that
 The command to install prowler is: 
 ```bash
 sudo bash
-adduser prowler
+```
+```adduser prowler
+```
+
 su prowler
 python3 -m pip install --user pipx
 python3 -m pipx ensurepath
