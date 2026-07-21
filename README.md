@@ -18,7 +18,6 @@ prowler aws </B>
 Navigate to IAM and then to users. Create user by selecting attach policies option
 <img src = "Images/2.png" height = 400, width = 500>
 <img src = "Images/3.png" height = 400, width = 500>
-
 Give s3 full access and security audit permission to the user
 <img src = "Images/4.png" height = 400, width = 500>
 
