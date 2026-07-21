@@ -12,6 +12,7 @@ python3 -m pipx ensurepath
 pipx install prowler
 cd /tmp
 prowler aws
+```
 <img src = "Images/1.png" height = 400, width = 500>
 
 <h2> Part 2: Create a User in IAM </h2>
