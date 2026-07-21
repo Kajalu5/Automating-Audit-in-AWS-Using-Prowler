@@ -43,7 +43,7 @@ Here, I used cis_1.4 framework to scan the system. Use the command: <B>prowler a
 <h2> Part 5: Create S3 Bucket for Output Storage </h2>
 After that create a s3 bucket with all default credentials to store output. In my case, the s3 bucket is: <B>3temp</B>
 We must copy the result to s3 and download the csv file: <B>aws s3 cp /tmp/output/compliance/prowler-output-784161805907-20250808145415_cis_1.4_aws.csv s3://3temp</B>
-<img src = "Images/11.png" height = 400, width = 500>
+<img src = "Images/11.png" height = 400, width = 1000>
 This gives the name of the location in s3 bucket. In my case, it is: prowler-output-784161805907-20250808145415_cis_1.4_aws.csv
  The file is stored in s3 bucket.
  <img src = "Images/12.png" height = 400, width = 500>
