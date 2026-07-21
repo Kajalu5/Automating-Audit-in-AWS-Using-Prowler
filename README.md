@@ -8,7 +8,6 @@ The command to install prowler is:
 sudo bash
 ```
 ```adduser prowler
-```
 
 su prowler
 python3 -m pip install --user pipx
