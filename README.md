@@ -3,7 +3,19 @@ This projects demonstrates how the audit scan can be automated using AWS Prowler
 
 <h2> Part 1: Install Prowler in AWS </h2>
 Navigate to Cloud shell in AWS by typing 'Cloud Shell' in search bar. After that, install prowler in AWS. Here is the prowler documentation: https://docs.prowler.com/projects/prowler-open-source/en/latest/#__tabbed_2_8. 
-The command to install prowler is: ``sudo bash``
+The command to install prowler is: ## Step 1: Switch to the root user
+
+```bash
+sudo bash
+```
+
+## Step 2: Create a new user
+
+```bash
+adduser prowler
+```
+
+sudo bash
 adduser prowler
 su prowler
 python3 -m pip install --user pipx
