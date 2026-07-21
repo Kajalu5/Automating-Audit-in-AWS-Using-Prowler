@@ -1,4 +1,5 @@
 <h2> Description </h2>
+This projects demonstrates how the audit scan can be automated using AWS Prowler. Prowler is an open source security tool, used to assess security posture in cloud environment
 
 <h2> Part 1: Install Prowler in AWS </h2>
 <img src = "Images/1.png" height = 400, width = 500>
