@@ -26,6 +26,7 @@ Give s3 full access and security audit permission to the user
 <img src = "Images/4.png" height = 400, width = 500>
 
 <h2> Part 3: Configure AWS to Scan Using User Credentials </h2>
+Check the prowler version using command ```prowler -v```. This proofs that prowler is installed in your environment. After that, configure AWS to scan using command aws configure. Grab credentials of user that you have created in previous step. In my case, it is temp2. Navigate to 'create access key', then choose option command line interface
 
 
 <h2> Part 4: Use Prowler Compliance </h2>
