@@ -1,7 +1,7 @@
 <h2> Description </h2>
 
 <h2> Part 1: Install Prowler in AWS </h2>
-<img src="1.png">
+
 
 
 <h2> Part 2: Create a User in IAM </h2>
